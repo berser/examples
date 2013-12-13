@@ -1,0 +1,15 @@
+{
+  "name":"guardian-server",
+  "version": "0.0.1",
+  "description": "Server for Guardian",
+  "main": "server.coffee",
+  "dependencies":{
+    "express": "latest",
+    "coffee-script": "latest",
+    "jade": "latest",
+    "mongoose": "latest",
+    "underscore": "latest",
+    "mongoose-troop": "latest",
+    "express-restify-mongoose": "latest"
+  }
+}
