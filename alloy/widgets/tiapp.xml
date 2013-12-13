@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-development" type="string">jmAYT8qppyKK0j60XnjXZNaco8cRZ0S8</property>
+    <property name="acs-oauth-key-development" type="string">8en2vHDi9JnshnoPfYw9ZpasHEnkF8et</property>
+    <property name="acs-api-key-development" type="string">YH0pbAcBTnbOfAw45nSZXDSH5Ke97v0Q</property>
+    <property name="acs-oauth-secret-production" type="string">JJJ8GiiXUls8QiiY5ETI7YYVSB6w6kUt</property>
+    <property name="acs-oauth-key-production" type="string">bstxln7Adn3XoRhkUgzTjjH6nOShzG3b</property>
+    <property name="acs-api-key-production" type="string">hxrwMyJnIeVGR6UGgi0K9P1nhmyVhbvO</property>
+    <id>com.antoniosandoval.awidgets</id>
+    <name>Alloy Widgets</name>
+    <version>1.0</version>
+    <publisher>antonio</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2012 by antonio</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>true</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>true</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>2ee7bc6a-d837-47bd-987c-53ae43b2ba23</guid>
+    <property name="ti.ui.defaultunit" type="string">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+        <module platform="android" version="1.0">ti.physicalSizeCategory</module>
+    </modules>
+    <deployment-targets>
+        <target device="blackberry">false</target>
+        <target device="android">true</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+    </deployment-targets>
+    <sdk-version>3.0.0.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+</ti:app>
