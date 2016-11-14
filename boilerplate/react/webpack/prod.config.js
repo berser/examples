@@ -1,4 +1,3 @@
-const path = require('path')
 const webpack = require('webpack')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -40,7 +39,7 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env': JSON.stringify({
         NODE_ENV: 'production',
-        API_URL: process.env.API_URL,
+        API_URL: process.env.API_URL
       })
     }),
     new webpack.optimize.DedupePlugin(),

@@ -12,7 +12,7 @@ app.use(devMiddleware(compiler, {
   publicPath: config.output.publicPath,
   noInfo: true,
   silent: true,
-  stats: 'errors-only',
+  stats: 'errors-only'
 }))
 
 app.use(hotMiddleware(compiler))

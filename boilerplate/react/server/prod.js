@@ -4,8 +4,8 @@ const compression = require('compression')
 const config = require('../config')
 
 const app = express()
-app.use(compression());
-app.use(config.publicPath, express.static(config.outputPath));
+app.use(compression())
+app.use(config.publicPath, express.static(config.outputPath))
 
 app.get('*', (req, res) => {
   res.sendFile(path.resolve(config.outputPath, 'index.html'))
