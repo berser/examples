@@ -6,7 +6,6 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = {
   entry: {
     main: [
-      'react-hot-loader/patch',
       './src/index.js'
     ]
   },
