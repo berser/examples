@@ -15,6 +15,11 @@ module.exports = {
     filename: '[name].[hash].js',
     publicPath: '/',
   },
+  resolve: {
+    alias: {
+      'react-dom': '@hot-loader/react-dom',
+    },
+  },
   module: {
     rules: [
       {
