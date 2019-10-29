@@ -16,3 +16,4 @@ results
 *node_modules
 *dist
 
+css/tailwind-project/public/build/tailwind.css
